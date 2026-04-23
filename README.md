@@ -97,6 +97,8 @@ sudo ./scripts/cleanup.sh
 
 ![Telnet session](docs/screenshots/telnet_text.png)
 
+
+This demonstrates that telnet transmits data in plain text and can be easily intercepted.
 ---
 
 ### Intercepted traffic in Wireshark
