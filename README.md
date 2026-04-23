@@ -4,17 +4,18 @@
 
 This project demonstrates a reproducible MITM (Man-in-the-Middle) homelab using Bash automation.
 
-The goal is to simulate network traffic interception in a controlled environment and practice basic DevSecOps concepts such as automation, reproducibility, and system-level scripting.
+The goal is to simulate network traffic interception in a controlled environment (such as Kali Linux + Ubuntu LTS + Metasploitable) and practice basic DevSecOps concepts such as automation, reproducibility and system scripting.
 
 ---
 
 ## 🎯 Goals
 
 * Understand how MITM attacks work at network level
-* Practice traffic interception and analysis
+* Practice traffic interception and analysis with Wireshark
 * Automate lab setup using Bash
 * Learn basic Git/GitHub workflow
 * Build a structured and reproducible lab environment
+* Show weaknesses of using telnet 
 
 ---
 
@@ -32,10 +33,10 @@ Target → Gateway → Kali (MITM) → Gateway
 
 ## ⚙️ Technologies Used
 
-* Linux (Kali, Ubuntu)
+* Linux (Kali, Ubuntu LTS)
 * Bash scripting
 * arpspoof
-* tcpdump / Wireshark
+* Wireshark
 * Git / GitHub
 
 ---
@@ -43,7 +44,7 @@ Target → Gateway → Kali (MITM) → Gateway
 ## 🚀 Features
 
 * Automated ARP spoofing via scripts
-* Packet capture using tcpdump
+* Packet capture using Wireshark
 * Modular Bash scripts (setup / attack / capture / cleanup)
 * Reproducible lab workflow
 
