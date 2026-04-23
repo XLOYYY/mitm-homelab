@@ -85,6 +85,8 @@ sudo ./scripts/cleanup.sh
 * I ended up with captured network traffic, saved as .pcap files.
 * I could see how packets moved between the different computers.
 * I confirmed that the MITM interception actually worked.
+* Captured telnet credentials from intercepted traffic
+* Demonstrated how insecure protocols expose sensitive data
 
 ---
 
