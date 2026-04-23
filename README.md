@@ -76,7 +76,7 @@ sudo ./scripts/capture_traffic.sh
 
 ### 4. Cleanup
 
-sudo ./</gateway_ip></target_ip>scripts/cleanup.sh
+sudo ./scripts/cleanup.sh
 
 ---
 
