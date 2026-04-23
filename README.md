@@ -91,6 +91,19 @@ sudo ./scripts/cleanup.sh
 
 ---
 
+## 📷 Demo
+
+### Telnet session (Ubuntu → Metasploitable)
+
+![Telnet session](docs/screenshots/telnet_session.png)
+
+---
+
+### Intercepted traffic in Wireshark
+
+![Wireshark capture](docs/screenshots/wireshark_telnet_stream.png)
+
+
 ## ⚠️ Disclaimer
 
 This project is for educational purposes only
