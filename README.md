@@ -3,7 +3,8 @@
 
 ## 📌 Overview
 
-For this project, I put together and showed how to set up a Man-in-the-Middle (MITM) homelab that you can easily re-create, all done with some Bash scripts.
+For this project, I put together and showed how to set up a Man-in-the-Middle (MITM) homelab that you can easily re-create, all done with some Bash scripts. Also, this project demonstrates that protocols like telnet transmit data in plain text,
+making them vulnerable to interception via MITM attacks.
 
 My goal was to pretend to intercept network traffic in a safe, controlled setup – things like Kali Linux, Ubuntu LTS, and Metasploitable. This also let me practice some basic DevSecOps ideas, like making things automatic, being able to set it up again easily, and writing system scripts.
 
