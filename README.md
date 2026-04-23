@@ -95,7 +95,7 @@ sudo ./scripts/cleanup.sh
 
 ### Telnet session (Ubuntu → Metasploitable)
 
-![Telnet session](docs/screenshots/telnet_session.png)
+![Telnet session](docs/screenshots/telnet_text.png)
 
 ---
 
